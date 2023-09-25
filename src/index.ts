@@ -230,6 +230,7 @@ class MyMapClass<K extends { toString(): string }, V> implements MyMap<K, V> {
 }
 let myMap = new MyMapClass<string, number>('k', 1);
 
+
 // simulate final classes (blz 108)
 class FinalClass {
     private constructor(private messages: string[]) { }
